@@ -26,3 +26,15 @@ public class Average {
         System.out.println(Average.solution(new int[]{89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99}));
     }
 }
+/*
+[다른 풀이]
+
+import java.util.Arrays;
+
+class Solution {
+    public double solution(int[] numbers) {
+        return Arrays.stream(numbers).average().orElse(0);
+    }
+}
+
+ */
